@@ -1,0 +1,30 @@
+.reg-body {
+  font-family: sans-serif;
+  margin-top:5rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+}
+.reg-container {
+  background-color:  white;
+  padding: 10px;
+  max-width:500px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reg-nav-item {
+background-color: yellow; 
+color: black; 
+padding: 10px 20px; 
+border-radius: 5px; 
+text-decoration: none; 
+margin-right: 10px; 
+}
+
+.reg-nav-item:hover {
+background-color: green; 
+}

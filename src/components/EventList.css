@@ -1,0 +1,44 @@
+.get-events{
+  margin-top:4.5rem ;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 20px;
+}
+.upcoming-events{
+  color:white;
+}
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.event-card {
+  width: calc(33.33% - 20px); 
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h2{
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.event-card p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .event-card {
+    width: calc(50% - 20px); 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .event-card {
+    width: calc(100% - 20px); 
+  }
+}
