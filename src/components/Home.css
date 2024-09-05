@@ -1,0 +1,97 @@
+
+.home {
+  margin-top: 4.5rem;
+  padding: 20px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+/* Welcome section */
+.welcome {
+  font-size: 3rem;
+  font-family: 'Arial Black', sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  text-shadow: 0 0 10px #00fff3, 0 0 20px #00fff3, 0 0 30px #00fff3;
+  animation: typewriter 2s steps(20) forwards;
+}
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.logContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeimg {
+  max-width: 100%;
+  height: auto; 
+  border-radius: 10px;
+  margin-right: 20rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.register,
+.login {
+  margin: 0 10px;
+}
+.contentt{
+  max-width: 900px;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contentt p {
+  margin-bottom: 15px;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.welcome {
+  animation: typewriter 5s steps(60) forwards;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .logContainer {
+    flex-direction: column;
+  }
+  
+  .homeimg {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .welcome {
+    font-size: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .content {
+    font-size: 1.2rem;
+  }
+}

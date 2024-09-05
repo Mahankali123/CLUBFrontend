@@ -1,0 +1,84 @@
+
+.studentlis {
+  margin-top: 4.5rem;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  padding: 20px; 
+}
+
+.student-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellowgreen;
+}
+
+.club-name {
+  text-transform: uppercase;
+  text-align: center;
+  color: white; 
+
+.StudentList {
+  text-align: center;
+}
+
+.student-table {
+  display: flex;
+  justify-content: center;
+}
+
+.student-table table {
+  width: 80%; 
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+}
+
+
+.student-table th {
+  background-color: rgb(124, 206, 134);
+  padding: 8px; 
+  text-align: left;
+  width: 25%;
+}
+
+.student-table td {
+  background-color: #fff;
+  padding: 8px; 
+  text-align: left;
+  width: 25%; 
+}
+
+
+.student-table button.butt {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.student-table button.butt:hover {
+  background-color: #c82333;
+}
+
+.description-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.description {
+  width: 80%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(248, 248, 8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: black;
+  text-align: justify;
+}
+}
