@@ -23,7 +23,9 @@ const RegisterStudent = () => {
     setLoading(true); 
     setError(null); 
 
-    axios.post(`https://club-backend-tau.vercel.app/api/register`, data)
+    axios.post('https://clubhub-backend.vercel.app/api/register', data, {
+      withCredentials: true // Include this if your backend requires credentials
+    })
       .then(res => {
         alert(res.data);
         setLoading(false); 
